@@ -54,7 +54,7 @@ function setInfo ({ip_address, location: {country, region, latitude, longitude},
     }
     currentMarker = L.marker([latitude, longitude], {icon: markerIcon}).addTo(map); 
 
-    if(matchMedi("max-wifth: 1023px").matches){
+    if(matchMedi("max-width: 1023px").matches){
         addOffset(map);
     }
 }
